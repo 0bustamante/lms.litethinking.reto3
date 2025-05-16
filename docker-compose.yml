@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  nginx-personalizado:
+    image: acrretooscar123.azurecr.io/nginx-personalizado
+    ports:
+      - "80:80"
+    restart: always
